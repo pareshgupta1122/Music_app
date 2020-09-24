@@ -1,0 +1,296 @@
+
+h1 {
+    color: white;
+text-align: center;
+    font-family: cursive;
+    padding:60px;
+    background-color: red;
+}
+.fa-search{
+    font-size: 30px;
+    
+}
+.fa-angle-left{
+    font-size:30px;
+}
+.music-contanier {
+    font-family: cursive;
+   
+    
+   
+     display: block;
+
+    background-color: white;
+}
+.music-header {
+    width: 100%;
+    height:150px;
+    border-bottom: 3px solid #555;
+        background-color: red;
+    
+}
+.title{
+ font-size: 50px;
+    color: white;
+ 
+}
+nav a {
+   
+     display: inline-block;
+    width:10%;
+    padding: 8px;
+    border: 8px 12px;
+    margin:2%;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+      transition: all ease .5s; 
+    color: red;
+}
+
+.free {
+   
+   
+}
+nav a:hover{
+    color: white;
+    background-color: red;
+     transform: scale(0.98) translatey(5px);
+}
+h2 {
+margin: 4%;
+    color: black;
+    padding-top:5px;
+    font-size:34px;
+    border-bottom: 4px solid #e6e6e6;
+    font-family: sans-serif;
+}
+
+
+#le {
+    color: white;
+    background-color: red;
+}
+
+div {
+    
+       
+    
+   
+}
+
+nav {
+padding: 10px;
+}
+
+.left {
+    display: inline;
+    width: 80%;
+}
+
+.edit{
+    display: inline;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius:25px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.right {
+    float: right;
+    margin-right: 15px;
+}
+
+button {
+    background-color:  red;
+    width: 200px;
+    border-radius: 25px;
+    color: white;
+    height: 40px;
+    border: 1px solid white;
+    padding:10px;
+    cursor: pointer;
+    position: absolute;
+     transition: all ease .5s; 
+}
+
+.search { 
+    display: inline;
+    margin:40px;
+}
+
+input {
+  
+}
+
+.search-field {
+      width: 300px;
+    border-radius: 25px;
+    height:40px;
+    border: 1px solid white;
+    background-color: aliceblue;
+    
+    
+}
+.music-header .fa-search{
+    float: right;
+    margin-right:10px;
+    margin-top:15px;
+    cursor: pointer;
+}
+.music-header .fa-angle-left{
+    float: left;
+    margin-left:10px;
+    margin-top:15px;
+    cursor: pointer;
+}
+.music-header .title{
+ position: absolute; 
+     margin-left: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+   width: 100%;
+    
+}
+button:hover{
+    background-color: brown;
+      transform: scale(0.98) translatey(5px);
+}
+
+form {
+    width:50%;
+    display: inline;
+}
+body{
+    background-color: white;
+    font-family: Helvetica Neue, Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin:0;
+    padding:0;
+    
+}
+
+.swiper-container{
+    width:100%;
+    padding-top:50px;
+    padding-bottom: 50px; 
+  
+
+}
+.swiper-slide{
+    background-position:left;
+    background-size: cover;
+    width:300px;
+    height: 380px;
+    background-color: #fff;
+  
+
+}
+img {
+width:100%;
+min-height:300px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+  
+    transition: all ease 0.4s;
+    
+}
+img:hover{
+    box-shadow: none;
+    transform: scale(0.98) translatey(5px);
+}
+
+.details {
+}
+
+h3 {
+    
+}
+.swiper-slide .imgBox{
+ width:100%;
+height: 300px;
+overflow: hidden;
+}
+.swiper-slide .imgBox img{
+    width: 100%;
+}
+.swiper-slide .details{
+    box-sizing: border-box;
+    font-size: 20px;
+    padding:20px;
+}
+.swiper-slide .details h3{
+    margin: 0;
+    padding:0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.swiper-slide .details h3 span{
+    font-size: 15px;
+    color:  red;
+    font-weight: 700;
+    
+}
+.imgBox{
+  
+}
+
+#aplayer {
+ 
+}
+#aplayer .showPlayer{
+    bottom:0;
+}
+.main{
+    padding: 40px 0;
+}
+.col-md-13{
+    margin-bottom: 40px;
+}
+.album-poster{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 35px #3d2173a1;
+    transition: all ease 0.4s;
+    border-radius: 7px;
+    display: block;
+    
+}
+.album-poster:hover{
+    box-shadow: none;
+    transform: scale(0.98) translatey(5px);
+
+}
+h4{
+    font-size:20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+}
+span{
+    color: #000 !important;
+    font-size{
+        16px;
+    }
+  /*  MUSIC PLAYER CUSTUMISIZING STYLE*/
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded{
+         background-color: #e0e0e0;
+        height: 4px;
+    }
+    .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played{
+          height: 4px;
+        background-color: #2196F3 !important;
+    }
+     .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb{
+         background-color: #2196F3 !important;
+    }
